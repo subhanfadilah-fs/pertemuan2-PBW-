@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BukuKita - Kontak</title>
+</head>
+<body>
+
+<h1>Selamat Datang di BukuKita!</h1>
+<h2>Toko Buku Online Terlengkap</h2>
+
+<p>
+[ <a href="index.html">Beranda</a> ]
+[ <a href="katalog.html">Katalog</a> ]
+[ <a href="promo.html">Promo</a> ]
+[ <a href="tentang.html">Tentang Kami</a> ]
+[ <a href="kontak.html">Kontak</a> ]
+</p>
+
+<hr>
+
+<h2>Hubungi Kami</h2>
+
+<form action="#" method="post">
+
+    <label for="nama">Nama Lengkap:</label><br>
+    <input type="text" name="nama" id="nama" required><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" name="email" id="email" required><br><br>
+
+    <label for="telepon">Nomor Telepon:</label><br>
+    <input type="tel" name="telepon" id="telepon"><br><br>
+
+    <label for="topik">Topik Pesan:</label><br>
+    <select name="topik" id="topik">
+        <option value="umum">Pertanyaan Umum</option>
+        <option value="pemesanan">Pemesanan Buku</option>
+        <option value="promo">Informasi Promo</option>
+        <option value="komplain">Komplain</option>
+    </select><br><br>
+
+    <label for="pesan">Pesan Anda:</label><br>
+    <textarea name="pesan" id="pesan" rows="6" cols="45"></textarea><br><br>
+
+    Bagaimana Anda Mengetahui Kami? (Pilih satu)<br><br>
+
+    <input type="radio" name="sumber" value="media-sosial">
+    Media Sosial<br>
+    <input type="radio" name="sumber" value="mesin-pencari">
+    Mesin Pencari<br>
+    <input type="radio" name="sumber" value="rekomendasi-teman">
+    Rekomendasi Teman<br><br>
+
+    <input type="checkbox" name="setuju" value="ya" required>
+    Setujui Syarat &amp; Ketentuan<br><br>
+
+    <input type="submit" name="submit" value="Kirim Pesan">
+
+</form>
+
+<p><a href="index.html">Kembali ke Beranda</a></p>
+
+</body>
+</html>
